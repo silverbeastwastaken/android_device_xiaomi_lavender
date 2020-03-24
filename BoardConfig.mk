@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2018-2019 The LineageOS Project
+# Copyright (C)      2020 Dreemurrs Embedded Labs
 #
 # SPDX-License-Identifier: Apache-2.0
 #
