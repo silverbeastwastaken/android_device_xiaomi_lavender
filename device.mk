@@ -433,6 +433,9 @@ PRODUCT_PACKAGES += \
 # Halium/UBports
 # Huong Tram is my favorite singer
 
+# Disable FakeSensorServer so UBports can use it
+MINIMEDIA_SENSORSERVER_DISABLE := 1
+
 # Something is also missing here as well
 PRODUCT_PACKAGES += \
     libmedia_omx \
