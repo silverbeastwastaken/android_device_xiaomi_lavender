@@ -38,6 +38,7 @@ BOARD_KERNEL_CMDLINE += androidboot.avb_version=1.0 androidboot.vbmeta.avb_versi
 
 # CMDLINES for Halium
 BOARD_KERNEL_CMDLINE += console=tty0
+BOARD_KERNEL_CMDLINE += apparmor=1 security=apparmor
 
 BOARD_KERNEL_BASE        := 0x00000000
 BOARD_KERNEL_PAGESIZE    := 4096
